@@ -1,0 +1,37 @@
+{
+    "actorSpecification": 1,
+    "name": "agency-lead-finder",
+    "title": "Agency Lead Finder by Niche",
+    "description": "Find digital agencies, marketing firms, and service providers by niche industry. Extract name, website, ratings, and contact info from Clutch.co.",
+    "version": "1.0",
+    "input": "./input_schema.json",
+    "dockerfile": "./Dockerfile",
+    "minMemoryMbytes": 256,
+    "maxMemoryMbytes": 1024,
+    "pricingModel": "PAY_PER_EVENT",
+    "pricingEvents": [
+        {
+            "eventName": "apify-actor-start",
+            "pricePerEvent": 0.10,
+            "description": "Base fee for starting the crawler"
+        },
+        {
+            "eventName": "lead-extracted",
+            "pricePerEvent": 0.003,
+            "description": "Charged per agency lead extracted ($3 per 1k leads)"
+        }
+    ],
+    "isPublic": true,
+    "seoTitle": "Agency Lead Finder by Niche | B2B Lead Generation",
+    "seoDescription": "Find digital agencies and marketing firms by niche industry. Extract name, website, ratings, reviews, and specialties from Clutch.co.",
+    "categories": [
+        "LEAD_GENERATION",
+        "MARKETING",
+        "B2B"
+    ],
+    "defaultRunOptions": {
+        "build": "latest",
+        "timeoutSecs": 1800,
+        "memoryMbytes": 256
+    }
+}

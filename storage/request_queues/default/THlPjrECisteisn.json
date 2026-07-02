@@ -1,0 +1,9 @@
+{
+	"id": "THlPjrECisteisn",
+	"json": "{\"id\":\"THlPjrECisteisn\",\"url\":\"https://www.google.com/search?q=best%20healthcare%20web%20design%20agency&start=0&num=10\",\"loadedUrl\":\"https://www.google.com/search?q=best%20healthcare%20web%20design%20agency&start=0&num=10\",\"uniqueKey\":\"https://www.google.com/search?num=10&q=best+healthcare+web+design+agency&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: Request blocked - received 429 status code.\\n    at CheerioCrawler._throwOnBlockedRequest (/home/praveen/APIFY/agency-lead-finder/node_modules/@crawlee/basic/internals/basic-crawler.js:910:19)\\n    at CheerioCrawler._runRequestHandler (/home/praveen/APIFY/agency-lead-finder/node_modules/@crawlee/http/internals/http-crawler.js:324:22)\\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\\n    at async CheerioCrawler._runRequestHandler (/home/praveen/APIFY/agency-lead-finder/node_modules/@crawlee/cheerio/internals/cheerio-crawler.js:153:9)\\n    at async wrap (/home/praveen/APIFY/agency-lead-finder/node_modules/@apify/timeout/cjs/index.cjs:54:21)\"],\"headers\":{},\"userData\":{\"niche\":\"healthcare\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-07-02T07:25:07.088Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 1,
+	"uniqueKey": "https://www.google.com/search?num=10&q=best+healthcare+web+design+agency&start=0",
+	"url": "https://www.google.com/search?q=best%20healthcare%20web%20design%20agency&start=0&num=10"
+}

@@ -1,0 +1,9 @@
+{
+  "maxLeadsPerNiche": 5,
+  "niches": [
+    "healthcare"
+  ],
+  "proxyConfiguration": {
+    "useApifyProxy": false
+  }
+}

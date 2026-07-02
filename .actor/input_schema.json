@@ -1,0 +1,35 @@
+{
+    "title": "Agency Lead Finder Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "niches": {
+            "title": "Niches / Industries",
+            "type": "array",
+            "description": "List of industries to search for agencies (e.g. healthcare, real-estate, saas).",
+            "editor": "stringList",
+            "prefill": ["healthcare", "real-estate", "e-commerce"]
+        },
+        "location": {
+            "title": "Location Filter (optional)",
+            "type": "string",
+            "description": "Filter agencies by location slug as used on Clutch.co (e.g. 'new-york-city', 'london').",
+            "editor": "textfield"
+        },
+        "maxLeadsPerNiche": {
+            "title": "Max Leads Per Niche",
+            "type": "integer",
+            "description": "Maximum number of agencies to extract per niche.",
+            "default": 30,
+            "minimum": 1
+        },
+        "proxyConfiguration": {
+            "title": "Proxy Configuration",
+            "type": "object",
+            "description": "Proxy settings. Apify proxy recommended to access Google SERPs.",
+            "prefill": { "useApifyProxy": true },
+            "editor": "proxy"
+        }
+    },
+    "required": ["niches"]
+}

@@ -1,0 +1,9 @@
+{
+	"id": "k0CLNDDFw6lUlWf",
+	"json": "{\"id\":\"k0CLNDDFw6lUlWf\",\"url\":\"https://www.google.com/search?q=%22healthcare%20agency%22%20site%3Alinkedin.com%2Fcompany&start=0&num=10\",\"loadedUrl\":\"https://www.google.com/search?q=%22healthcare%20agency%22%20site%3Alinkedin.com%2Fcompany&start=0&num=10\",\"uniqueKey\":\"https://www.google.com/search?num=10&q=%22healthcare+agency%22+site%3Alinkedin.com%2Fcompany&start=0\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"niche\":\"healthcare\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-07-02T07:24:58.352Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.google.com/search?num=10&q=%22healthcare+agency%22+site%3Alinkedin.com%2Fcompany&start=0",
+	"url": "https://www.google.com/search?q=%22healthcare%20agency%22%20site%3Alinkedin.com%2Fcompany&start=0&num=10"
+}
