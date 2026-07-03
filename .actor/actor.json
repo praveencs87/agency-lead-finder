@@ -6,13 +6,13 @@
     "version": "1.0",
     "input": "./input_schema.json",
     "dockerfile": "./Dockerfile",
-    "minMemoryMbytes": 256,
-    "maxMemoryMbytes": 1024,
+    "minMemoryMbytes": 1024,
+    "maxMemoryMbytes": 4096,
     "pricingModel": "PAY_PER_EVENT",
     "pricingEvents": [
         {
             "eventName": "apify-actor-start",
-            "pricePerEvent": 0.10,
+            "pricePerEvent": 0.1,
             "description": "Base fee for starting the crawler"
         },
         {
@@ -32,6 +32,6 @@
     "defaultRunOptions": {
         "build": "latest",
         "timeoutSecs": 1800,
-        "memoryMbytes": 256
+        "memoryMbytes": 4096
     }
 }

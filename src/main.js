@@ -1,3 +1,4 @@
+import { armKillSwitch, disarmKillSwitch } from './utils/timeoutManager.js';
 import { Actor } from 'apify';
 import { CheerioCrawler, log } from 'crawlee';
 
@@ -111,7 +112,9 @@ try {
     }
 
     await crawler.addRequests(initialRequests);
+    armKillSwitch(crawler);
     await crawler.run();
+    disarmKillSwitch();
 
     log.info(`🎉 Done! Extracted ${totalExtracted} agency leads across ${niches.length} niches.`);
 } catch (error) {
